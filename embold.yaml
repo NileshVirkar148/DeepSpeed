@@ -19,14 +19,14 @@ sources:
     - '.git'
     
 # Specify the languages you would like to Scan. Default is all Detected
-#languages: 'JAVA,CPP'
+languages: 'PYTHON'
 
 
 # Define modules one would like to run or disable. This is enough for Basic Users
 # Get List of Modules (Which are Default Enabled/Disabled) at https://docs.embold.io/
-#modules:
-#  - name: pmd
-#    enabled: true
+modules:
+  - name: dlint
+    enabled: true
 #  - name: gamma_cxx
 #    enabled: false
 #  - name: jshint
